@@ -4,7 +4,7 @@
 ## Для запуска проекта:
 
 #### Клонируем репозиторий: 
-https://github.com/sergey9295/foodgram
+https://github.com/sergey9295/foodgram-st
 
 #### Создаём в директории backend/foodgram файл .env и заполняем его:
 - DEBUG=True
