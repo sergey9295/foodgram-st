@@ -6,17 +6,6 @@
 #### Клонируем репозиторий: 
 https://github.com/sergey9295/foodgram-st
 
-#### Создаём в директории backend/foodgram файл .env и заполняем его:
-- DEBUG=True
-- ALLOWED_HOSTS=localhost,127.0.0.1
-- USE_SQLITE=False
-- DB_ENGINE=django.db.backends.postgresql
-- DB_NAME=foodgram
-- DB_USER=foodgram_user
-- DB_PASSWORD=foodgram_password
-- DB_HOST=postgres
-- DB_PORT=5432
-
 #### Переходим в папку infra: 
 cd .\infra\
 
