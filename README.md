@@ -10,6 +10,6 @@ https://github.com/sergey9295/foodgram-st
 cd .\infra\
 
 #### Запускаем docker-compose: 
-docker-compose up -d 
+docker-compose up --build 
 
 #### Миграции выполняются автоматически (команды прописаны в backend/Dockerfile)
