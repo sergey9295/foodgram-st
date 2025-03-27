@@ -3,8 +3,7 @@ services:
 
   backend:
     container_name: foodgram-backend
-    build:
-      context: ../backend  
+    image: slistarov/foodgram-backend:latest
     volumes:
       - backend_data:/app/data
       - static_value:/app/static/
@@ -17,7 +16,7 @@ services:
 
   frontend:
     container_name: foodgram-front
-    build: ../frontend
+    image: slistarov/foodgram-frontend:latest
     volumes:
       - ../frontend/build:/app/build/
   nginx:
